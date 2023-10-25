@@ -1,9 +1,9 @@
 import {LivroCategoria} from './livro'
 
 const listaDeLivros = [
-    new LivroCategoria("Livro 1", "Autor 1", 1995, "Aventura"),
-    new LivroCategoria("Livro 2", "Autor 2", 2005, "Romance"),
-    new LivroCategoria("Livro 3", "Autor 3", 1980, "Mistério"),
+    new LivroCategoria("O mistério do Mediterrâneo", "Agatha Cristie", 1995, "Suspense"),
+    new LivroCategoria("O segredo de Emma", "leticia", 2005, "Romance"),
+    new LivroCategoria("A culpa das estrelas", "anonimo", 1980, "Drama"),
   ];
 
   listaDeLivros.forEach((livro) => {
